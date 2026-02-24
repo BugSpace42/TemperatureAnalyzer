@@ -22,3 +22,7 @@ while i <= n:
     except ValueError:
         print("Ошибка! Введённая строка не является целым числом или числом с плавающей точкой.")
         print("Попробуйте ещё раз.")
+
+print(f"Средняя температура за {n} дней: {sum(temperatures)/n:.1f}")
+print(f"Максимальная температура за {n} дней: {max(temperatures)}")
+print(f"Минимальная температура за {n} дней: {min(temperatures)}")
